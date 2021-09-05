@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Reto-2-Semana-2</title>
+</head>
+<body>
+    <section id="formulario-contacto"> 
+  
+    
+    <form action="">
+        <h1 class="consulta">INSCRIBETE AL PLAN</h1>
+        <div class="logo">
+            <img src="img/logo.png" alt="">
+        </div>
+
+        <input type="text" name="Nombre" minlength="6"  required placeholder="Nombre">
+        <input type="number" name="edad"  min="0" max="120" required placeholder="Edad">
+        <input type="text" name="Nombre" minlength="6"  required placeholder="Ingreso">
+        <!-- <input type="text" name="telefono" placeholder="Teléfono"> -->
+        <textarea name="informacion"  minlength="20" required placeholder="Más información"></textarea>
+        <div class="genero">
+        <label>Genero</label>
+        </div>
+        <div class="punto">   
+        <input type="radio" name="genero" value="M">Masculino
+        <input type="radio" name="genero" value="F">Femenino
+        <input type="radio" name="genero" value="NC">Trans
+        </div>
+        <select>
+            <option selected disabled>Seleccione una opcion</option>
+            <option value="B">Basico</option>
+            <option value="N">Normal</option>
+            <option value="P">Premiun</option>
+        </select>
+        <div class="contenido__check">
+        <input class="check" type="checkbox" value="next">
+        Suscríbete al boletín
+         </div>
+         <div id="enviar">
+        <input type="submit" value="ENVIAR" class="presiona">
+    </div>
+    </form>
+</section>
+</body>
+</html>
